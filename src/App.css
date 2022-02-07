@@ -1,0 +1,18 @@
+.hamburger-text{
+    text-transform: capitalize;
+    font-size: 17px;
+    font-family: cursive;
+   }
+
+a:link,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.clss:hover{
+color:rgb(255, 40, 40);
+}
+

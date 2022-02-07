@@ -1,0 +1,58 @@
+.content {
+  margin-top: 60px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.downloadMessage{
+    width: 100%;
+  display: flex;
+  align-items: center;
+  background: #f44336;
+  height: 48px;
+  padding: 0 40px;
+  margin: 20px 0 35px 0;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.downloadText{
+    flex:1;
+    font-size: 17px;
+    font-family: cursive;
+}
+
+@media (max-width: 1000px){
+  .downloadMessage{
+      display:none;
+  }
+}
+
+.loadMoretext{
+  font-family: cursive;
+  font-weight: 450;
+}
+.loadMore {
+  cursor: pointer;
+  background-color:white;
+  width:150px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 3px 5px 0 rgba(0, 0, 0, 0.3), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  padding: 7px 25px;
+  font-size: 13px;
+  margin-top: -50px;
+}
+
+.loadMore:hover{
+  box-shadow: 2px 4px 6px 1px rgba(0, 0, 0, 0.4), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+@media(max-width:1100px){
+  .loadMore{
+    margin-top: -30px;
+  }
+}
